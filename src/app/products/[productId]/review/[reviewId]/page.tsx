@@ -17,5 +17,6 @@ export default function ReviewDetails({ params : { reviewId, productId } }: {
     productId: string
   }
 }){
+
   return( <h1>Review {reviewId} for product {productId}</h1> )
 }
