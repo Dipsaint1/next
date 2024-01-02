@@ -1,22 +1,15 @@
-// export default function ReviewDetails({ params }: {
-//   params: { 
-//     reviewId: string,
-//     productId: string
-//   }
-// }){
+import { notFound } from "next/navigation";
+// import NotFound from "./not-found";
 
-//   const { reviewId, productId } = params;
-//   return( <h1>Review page {reviewId}</h1> )
-// }
-
-
-// Destructured params
 export default function ReviewDetails({ params : { reviewId, productId } }: {
   params: { 
     reviewId: string,
     productId: string
   }
 }){
+  if(parseInt(reviewId) > 1000){
+    return notFound();
+  }
 
   return( <h1>Review {reviewId} for product {productId}</h1> )
 }
