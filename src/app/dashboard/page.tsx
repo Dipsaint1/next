@@ -1,4 +1,5 @@
-import LineChart from "./line-chart"
+import React from "react";
+import LineChart from "./line-chart";
 
 function BarChart(){
   return <h2>Bar Chart</h2>
