@@ -8,4 +8,8 @@
 - Create a folder called '_lib'
 
 ## Route Groups
-Allows us to logically group our routes and project files without affecting the URL path structure
+-Allows us to logically group our routes and project files without affecting the URL path structure
+-It's good for authentication routes
+  -Register
+  -Login
+  -Forgot Password
