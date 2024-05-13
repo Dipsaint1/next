@@ -1,7 +1,10 @@
-// export default function ProductDetails({ params } : { params: { productId: string }}){
-export default function ProductDetails({ params : { productId }} : {
+export default function ProductDetails({ params }: {
   params: { productId: string }
-}){
-  
-  return ( <h1>Details about product { productId }</h1> )
-}
+} ) {
+
+  console.log(params.productId);
+
+  return(
+    <h1>Details about product {  }</h1>
+  )
+};
