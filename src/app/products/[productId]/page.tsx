@@ -2,9 +2,7 @@ export default function ProductDetails({ params }: {
   params: { productId: string }
 } ) {
 
-  console.log(params.productId);
-
   return(
-    <h1>Details about product {  }</h1>
+    <h1>Details about product { params.productId }</h1>
   )
 };
