@@ -1,10 +1,10 @@
-export default function ProductList() {
-  return(
+export default function ProductList(){
+  return ( 
     <>
       <h1>Product List</h1>
-      <p>Product 1</p>
-      <p>Product 2</p>
-      <p>Product 3</p>
+      <h4>Product 1</h4>
+      <h4>Product 2</h4>
+      <h4>Product 3</h4>
     </>
   )
-};
+}

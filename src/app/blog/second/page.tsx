@@ -1,3 +1,3 @@
-export default function SecondPost() {
-  return <h3>Second Post</h3>
-};
+export default function Blog() {
+  return ( <h1>My Second Blog</h1> )
+}
