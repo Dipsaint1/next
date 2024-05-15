@@ -5,7 +5,7 @@ export default function ArchivedNotifications() {
   return (
     <Card>
       <div> Archived Notifications </div>
-      <Link href='/complex-dashboard/unread'>Unread</Link>
+      <Link href='/complex-dashboard'>Default</Link>
     </Card>
   )
 };
